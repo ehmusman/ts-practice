@@ -1,10 +1,11 @@
 import React from 'react';
-import Parent from './Parent';
-
+import GuestList from './GuestList';
+import './App.css'
 function App() {
   return (
-    <div className="App">
-      <Parent />
+    <div className="container">
+      <h3>Name adding in the list app usign typescript</h3>
+      <GuestList />
     </div>
   );
 }
